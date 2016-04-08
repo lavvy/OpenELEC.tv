@@ -262,7 +262,7 @@ fi
     for extra_target in "$KERNEL_UBOOT_EXTRA_TARGET"; do
       LDFLAGS="" make $extra_target > /dev/null
     done
-    DTB_BLOBS=(arch/$KERNEL_ARCH/boot/dts/amlogic/*.dtb)
+    DTB_BLOBS=($(ls arch/$KERNEL_ARCH/boot/dts/amlogic/*.dtb 2>/dev/null || true))
     DTB_BLOBS_COUNT="${#DTB_BLOBS[@]}"
     if [ "$DTB_BLOBS_COUNT" -gt 1 ]; then
       $ROOT/tools/dtbTool/dtbTool -o arch/$KERNEL_ARCH/boot/dtb.img -p scripts/dtc/ arch/$KERNEL_ARCH/boot/dts/amlogic/
