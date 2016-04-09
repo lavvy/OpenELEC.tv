@@ -31,6 +31,10 @@ PKG_SHORTDESC="linux26: The Linux kernel 2.6 precompiled kernel binary image and
 PKG_LONGDESC="This package contains a precompiled kernel image and the modules."
 case "$LINUX" in
   amlogic)
+    PKG_VERSION="amlogic-3.10-c8d5b2f"
+    PKG_URL="$DISTRO_SRC/$PKG_NAME-$PKG_VERSION.tar.xz"
+    ;;
+  amlogic-kszaq)
     LINUX_VERSION="3.10-61a38cb"
     PKG_VERSION="amlogic-$LINUX_VERSION"
     PKG_URL="http://s805.eu/sources/$PKG_NAME-$PKG_VERSION.tar.xz"
