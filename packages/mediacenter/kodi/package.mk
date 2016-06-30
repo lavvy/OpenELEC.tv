@@ -39,9 +39,9 @@ case "$KODIPLAYER_DRIVER" in
     PKG_KEEP_CHECKOUT="no"
     ;;
   *)
-    PKG_VERSION="c1c4b9e"
-    PKG_GIT_URL="https://github.com/xbmc/xbmc.git"
-    PKG_GIT_BRANCH="Jarvis"
+    PKG_VERSION="6532e7d139"
+    PKG_GIT_URL="http://greencreate.net/lavvy/xbmc.git"
+    PKG_GIT_BRANCH="home"
     PKG_KEEP_CHECKOUT="no"
     ;;
 esac
