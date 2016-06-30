@@ -2,17 +2,17 @@
   DISTRONAME="OpenELEC"
 
 # short project description
-  DESCRIPTION="OpenELEC is a fast and user-friendly Kodi Entertainment Center distribution."
+  DESCRIPTION="TUNE is a fast and user-friendly Entertainment Center distribution."
 
 # Welcome Message for e.g. SSH Server (up to 5 Lines)
   GREETING0="##############################################"
-  GREETING1="#                  OpenELEC                  #"
-  GREETING2="#             http://openelec.tv             #"
+  GREETING1="#                      TUNE                  #"
+  GREETING2="#             http://hookcell.com/tune       #"
   GREETING3="##############################################"
   GREETING4=""
 
 # Root password to integrate in the target system
-  ROOT_PASSWORD="openelec"
+  ROOT_PASSWORD="pipipockey"
 
 # Install glibc locales to the build (yes / no)
   GLIBC_LOCALES="yes"
